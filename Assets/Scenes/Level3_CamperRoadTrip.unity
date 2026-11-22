@@ -1,0 +1,1587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &217416435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 217416440}
+  - component: {fileID: 217416439}
+  - component: {fileID: 217416438}
+  - component: {fileID: 217416436}
+  - component: {fileID: 217416437}
+  m_Layer: 0
+  m_Name: Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &217416436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217416435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e87bb0d0b09894399c806509779434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GetYourPhD.RoadTrip
+  legs:
+  - code: IT
+    name: Italy
+    welcome: Benvenuti in Italia!
+    startY: 0
+    endY: 505
+    firstCol: 1
+    curveAmp: 1
+    curveLen: 110
+    theme: 2
+    flagA: {r: 0.1, g: 0.55, b: 0.25, a: 1}
+    flagB: {r: 1, g: 1, b: 1, a: 1}
+    flagC: {r: 0.8, g: 0.15, b: 0.15, a: 1}
+    flagStyle: 0
+    altFromY: -1
+    altName: 
+    hudName: 
+    altFlagStyle: 2
+    altFlagA: {r: 1, g: 0, b: 0, a: 1}
+    altFlagB: {r: 1, g: 1, b: 1, a: 1}
+    altFlagC: {r: 1, g: 1, b: 1, a: 1}
+    postcard: {fileID: 21300000, guid: d1e5144505154154890e2170d5b31b9b, type: 3}
+    postcardTitle: Saluti dall'Italia
+  - code: AT
+    name: The Alps
+    welcome: "Gr\xFCezi! Welcome to the Alps"
+    startY: 505
+    endY: 1080
+    firstCol: 1
+    curveAmp: 3.2
+    curveLen: 70
+    theme: 1
+    flagA: {r: 0.85, g: 0.1, b: 0.12, a: 1}
+    flagB: {r: 1, g: 1, b: 1, a: 1}
+    flagC: {r: 1, g: 1, b: 1, a: 1}
+    flagStyle: 2
+    altFromY: 800
+    altName: Austria
+    hudName: Switzerland
+    altFlagStyle: 1
+    altFlagA: {r: 0.8, g: 0.1, b: 0.15, a: 1}
+    altFlagB: {r: 1, g: 1, b: 1, a: 1}
+    altFlagC: {r: 0.8, g: 0.1, b: 0.15, a: 1}
+    postcard: {fileID: 21300000, guid: 4d8a2b2bcb1bc02488ce529fdfc974f5, type: 3}
+    postcardTitle: Greetings from the Alps
+  - code: DE
+    name: Germany
+    welcome: Willkommen in Deutschland!
+    startY: 1080
+    endY: 1730
+    firstCol: 0
+    curveAmp: 0
+    curveLen: 80
+    theme: 0
+    flagA: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+    flagB: {r: 0.85, g: 0.1, b: 0.1, a: 1}
+    flagC: {r: 1, g: 0.8, b: 0.1, a: 1}
+    flagStyle: 1
+    altFromY: -1
+    altName: 
+    hudName: 
+    altFlagStyle: 2
+    altFlagA: {r: 1, g: 0, b: 0, a: 1}
+    altFlagB: {r: 1, g: 1, b: 1, a: 1}
+    altFlagC: {r: 1, g: 1, b: 1, a: 1}
+    postcard: {fileID: 21300000, guid: bc0903653de55a24b8dc46a1865b7700, type: 3}
+    postcardTitle: Greetings from Leipzig
+  events:
+  - y: 17.5
+    kind: a
+    col: 3
+    text: 
+    seed: 115
+  - y: 22.5
+    kind: i
+    col: 3
+    text: 
+    seed: 146
+  - y: 42.5
+    kind: i
+    col: 3
+    text: 
+    seed: 270
+  - y: 47.5
+    kind: i
+    col: 3
+    text: 
+    seed: 301
+  - y: 67.5
+    kind: i
+    col: 3
+    text: 
+    seed: 425
+  - y: 72.5
+    kind: i
+    col: 3
+    text: 
+    seed: 456
+  - y: 92.5
+    kind: v
+    col: 3
+    text: 
+    seed: 580
+  - y: 107.5
+    kind: p
+    col: 3
+    text: 
+    seed: 673
+  - y: 112.5
+    kind: p
+    col: 3
+    text: 
+    seed: 704
+  - y: 117.5
+    kind: p
+    col: 3
+    text: 
+    seed: 735
+  - y: 132.5
+    kind: j
+    col: 2
+    text: 
+    seed: 821
+  - y: 152.5
+    kind: p
+    col: 3
+    text: 
+    seed: 952
+  - y: 157.5
+    kind: p
+    col: 3
+    text: 
+    seed: 983
+  - y: 162.5
+    kind: p
+    col: 3
+    text: 
+    seed: 1014
+  - y: 177.5
+    kind: v
+    col: 3
+    text: 
+    seed: 1107
+  - y: 192.5
+    kind: v
+    col: 1
+    text: 
+    seed: 1186
+  - y: 202.5
+    kind: a
+    col: 1
+    text: 
+    seed: 1248
+  - y: 202.5
+    kind: v
+    col: 2
+    text: 
+    seed: 1255
+  - y: 217.5
+    kind: o
+    col: 2
+    text: 
+    seed: 1348
+  - y: 230
+    kind: '!'
+    col: 3
+    text: GAS 500 m
+    seed: 46
+  - y: 252.5
+    kind: G
+    col: 4
+    text: 
+    seed: 1579
+  - y: 277.5
+    kind: R
+    col: 2
+    text: 
+    seed: 1720
+  - y: 287.5
+    kind: s
+    col: 2
+    text: 
+    seed: 1782
+  - y: 317.5
+    kind: j
+    col: 3
+    text: 
+    seed: 1975
+  - y: 327.5
+    kind: c
+    col: 2
+    text: 
+    seed: 2030
+  - y: 337.5
+    kind: P
+    col: 3
+    text: 
+    seed: 2099
+  - y: 350
+    kind: '!'
+    col: 3
+    text: WORKSHOP 500 m
+    seed: 70
+  - y: 372.5
+    kind: S
+    col: 4
+    text: 
+    seed: 2323
+  - y: 397.5
+    kind: i
+    col: 1
+    text: 
+    seed: 2457
+  - y: 402.5
+    kind: i
+    col: 1
+    text: 
+    seed: 2488
+  - y: 422.5
+    kind: a
+    col: 1
+    text: 
+    seed: 2612
+  - y: 427.5
+    kind: i
+    col: 1
+    text: 
+    seed: 2643
+  - y: 437.5
+    kind: o
+    col: 1
+    text: 
+    seed: 2705
+  - y: 450
+    kind: '!'
+    col: 0
+    text: CENTRO
+    seed: 90
+  - y: 452.5
+    kind: p
+    col: 1
+    text: 
+    seed: 2798
+  - y: 452.5
+    kind: p
+    col: 3
+    text: 
+    seed: 2812
+  - y: 457.5
+    kind: p
+    col: 1
+    text: 
+    seed: 2829
+  - y: 457.5
+    kind: a
+    col: 2
+    text: 
+    seed: 2836
+  - y: 457.5
+    kind: p
+    col: 3
+    text: 
+    seed: 2843
+  - y: 462.5
+    kind: p
+    col: 1
+    text: 
+    seed: 2860
+  - y: 462.5
+    kind: p
+    col: 3
+    text: 
+    seed: 2874
+  - y: 467.5
+    kind: p
+    col: 1
+    text: 
+    seed: 2891
+  - y: 467.5
+    kind: p
+    col: 3
+    text: 
+    seed: 2905
+  - y: 482.5
+    kind: j
+    col: 3
+    text: 
+    seed: 2998
+  - y: 492.5
+    kind: i
+    col: 1
+    text: 
+    seed: 3046
+  - y: 497.5
+    kind: i
+    col: 1
+    text: 
+    seed: 3077
+  - y: 506
+    kind: '|'
+    col: 0
+    text: "GR\xDCEZI! WELCOME TO THE ALPS"
+    seed: 101
+  - y: 532.5
+    kind: i
+    col: 1
+    text: 
+    seed: 3294
+  - y: 537.5
+    kind: i
+    col: 1
+    text: 
+    seed: 3325
+  - y: 557.5
+    kind: m
+    col: 1
+    text: 
+    seed: 3449
+  - y: 562.5
+    kind: i
+    col: 1
+    text: 
+    seed: 3480
+  - y: 572.5
+    kind: r
+    col: 2
+    text: 
+    seed: 3549
+  - y: 587.5
+    kind: o
+    col: 1
+    text: 
+    seed: 3635
+  - y: 602.5
+    kind: i
+    col: 1
+    text: 
+    seed: 3728
+  - y: 607.5
+    kind: i
+    col: 1
+    text: 
+    seed: 3759
+  - y: 625
+    kind: '!'
+    col: 3
+    text: 'TOLL
+
+      SLOW DOWN'
+    seed: 125
+  - y: 642.5
+    kind: B
+    col: 1
+    text: 
+    seed: 3976
+  - y: 642.5
+    kind: B
+    col: 2
+    text: 
+    seed: 3983
+  - y: 642.5
+    kind: B
+    col: 3
+    text: 
+    seed: 3990
+  - y: 662.5
+    kind: j
+    col: 1
+    text: 
+    seed: 4100
+  - y: 682.5
+    kind: r
+    col: 2
+    text: 
+    seed: 4231
+  - y: 697.5
+    kind: r
+    col: 1
+    text: 
+    seed: 4317
+  - y: 707.5
+    kind: r
+    col: 3
+    text: 
+    seed: 4393
+  - y: 722.5
+    kind: r
+    col: 2
+    text: 
+    seed: 4479
+  - y: 737.5
+    kind: k
+    col: 1
+    text: 
+    seed: 4565
+  - y: 755
+    kind: '!'
+    col: 3
+    text: GAS 500 m
+    seed: 151
+  - y: 777.5
+    kind: G
+    col: 4
+    text: 
+    seed: 4834
+  - y: 800
+    kind: '!'
+    col: 0
+    text: "\xD6STERREICH"
+    seed: 160
+  - y: 807.5
+    kind: o
+    col: 3
+    text: 
+    seed: 5013
+  - y: 822.5
+    kind: k
+    col: 3
+    text: 
+    seed: 5106
+  - y: 842.5
+    kind: o
+    col: 3
+    text: 
+    seed: 5230
+  - y: 857.5
+    kind: j
+    col: 1
+    text: 
+    seed: 5309
+  - y: 867.5
+    kind: r
+    col: 3
+    text: 
+    seed: 5385
+  - y: 882.5
+    kind: c
+    col: 1
+    text: 
+    seed: 5464
+  - y: 882.5
+    kind: i
+    col: 3
+    text: 
+    seed: 5478
+  - y: 895
+    kind: '!'
+    col: 3
+    text: WORKSHOP 500 m
+    seed: 179
+  - y: 917.5
+    kind: S
+    col: 4
+    text: 
+    seed: 5702
+  - y: 942.5
+    kind: R
+    col: 2
+    text: 
+    seed: 5843
+  - y: 952.5
+    kind: s
+    col: 3
+    text: 
+    seed: 5912
+  - y: 982.5
+    kind: c
+    col: 2
+    text: 
+    seed: 6091
+  - y: 992.5
+    kind: P
+    col: 3
+    text: 
+    seed: 6160
+  - y: 1007.5
+    kind: j
+    col: 2
+    text: 
+    seed: 6246
+  - y: 1017.5
+    kind: o
+    col: 3
+    text: 
+    seed: 6315
+  - y: 1032.5
+    kind: r
+    col: 2
+    text: 
+    seed: 6401
+  - y: 1047.5
+    kind: a
+    col: 3
+    text: 
+    seed: 6501
+  - y: 1052.5
+    kind: i
+    col: 3
+    text: 
+    seed: 6532
+  - y: 1062.5
+    kind: k
+    col: 2
+    text: 
+    seed: 6587
+  - y: 1081
+    kind: '|'
+    col: 0
+    text: WILLKOMMEN IN DEUTSCHLAND!
+    seed: 216
+  - y: 1097.5
+    kind: c
+    col: 3
+    text: 
+    seed: 6811
+  - y: 1112.5
+    kind: o
+    col: 1
+    text: 
+    seed: 6890
+  - y: 1127.5
+    kind: m
+    col: 3
+    text: 
+    seed: 6997
+  - y: 1132.5
+    kind: i
+    col: 3
+    text: 
+    seed: 7028
+  - y: 1142.5
+    kind: f
+    col: 0
+    text: 
+    seed: 7069
+  - y: 1147.5
+    kind: a
+    col: 3
+    text: 
+    seed: 7121
+  - y: 1157.5
+    kind: T
+    col: 1
+    text: 
+    seed: 7169
+  - y: 1187.5
+    kind: i
+    col: 3
+    text: 
+    seed: 7369
+  - y: 1192.5
+    kind: i
+    col: 3
+    text: 
+    seed: 7400
+  - y: 1202.5
+    kind: j
+    col: 1
+    text: 
+    seed: 7448
+  - y: 1212.5
+    kind: i
+    col: 0
+    text: 
+    seed: 7503
+  - y: 1217.5
+    kind: i
+    col: 0
+    text: 
+    seed: 7534
+  - y: 1247.5
+    kind: f
+    col: 0
+    text: 
+    seed: 7720
+  - y: 1252.5
+    kind: a
+    col: 3
+    text: 
+    seed: 7772
+  - y: 1262.5
+    kind: f
+    col: 0
+    text: 
+    seed: 7813
+  - y: 1267.5
+    kind: a
+    col: 3
+    text: 
+    seed: 7865
+  - y: 1277.5
+    kind: i
+    col: 0
+    text: 
+    seed: 7906
+  - y: 1282.5
+    kind: i
+    col: 0
+    text: 
+    seed: 7937
+  - y: 1292.5
+    kind: a
+    col: 0
+    text: 
+    seed: 7999
+  - y: 1297.5
+    kind: i
+    col: 0
+    text: 
+    seed: 8030
+  - y: 1317.5
+    kind: f
+    col: 0
+    text: 
+    seed: 8154
+  - y: 1322.5
+    kind: a
+    col: 3
+    text: 
+    seed: 8206
+  - y: 1330
+    kind: '!'
+    col: 3
+    text: GAS 500 m
+    seed: 266
+  - y: 1352.5
+    kind: G
+    col: 4
+    text: 
+    seed: 8399
+  - y: 1377.5
+    kind: T
+    col: 1
+    text: 
+    seed: 8533
+  - y: 1405
+    kind: '!'
+    col: 3
+    text: ROADWORKS
+    seed: 281
+  - y: 1417.5
+    kind: =
+    col: 3
+    text: 
+    seed: 8795
+  - y: 1422.5
+    kind: =
+    col: 3
+    text: 
+    seed: 8826
+  - y: 1427.5
+    kind: i
+    col: 1
+    text: 
+    seed: 8843
+  - y: 1427.5
+    kind: =
+    col: 3
+    text: 
+    seed: 8857
+  - y: 1432.5
+    kind: =
+    col: 3
+    text: 
+    seed: 8888
+  - y: 1437.5
+    kind: =
+    col: 3
+    text: 
+    seed: 8919
+  - y: 1452.5
+    kind: j
+    col: 3
+    text: 
+    seed: 9012
+  - y: 1460
+    kind: '!'
+    col: 3
+    text: WORKSHOP 500 m
+    seed: 292
+  - y: 1482.5
+    kind: S
+    col: 4
+    text: 
+    seed: 9205
+  - y: 1507.5
+    kind: c
+    col: 1
+    text: 
+    seed: 9339
+  - y: 1517.5
+    kind: P
+    col: 3
+    text: 
+    seed: 9415
+  - y: 1532.5
+    kind: R
+    col: 1
+    text: 
+    seed: 9494
+  - y: 1542.5
+    kind: s
+    col: 1
+    text: 
+    seed: 9556
+  - y: 1572.5
+    kind: j
+    col: 1
+    text: 
+    seed: 9742
+  - y: 1582.5
+    kind: f
+    col: 0
+    text: 
+    seed: 9797
+  - y: 1587.5
+    kind: a
+    col: 3
+    text: 
+    seed: 9849
+  - y: 1597.5
+    kind: i
+    col: 0
+    text: 
+    seed: 9890
+  - y: 1602.5
+    kind: i
+    col: 0
+    text: 
+    seed: 9921
+  - y: 1610
+    kind: '!'
+    col: 3
+    text: LEIPZIG
+    seed: 322
+  - y: 1617.5
+    kind: o
+    col: 3
+    text: 
+    seed: 10035
+  - y: 1652.5
+    kind: a
+    col: 2
+    text: 
+    seed: 10245
+  - y: 1670
+    kind: F
+    col: 0
+    text: 
+    seed: 334
+  finishY: 1670
+  laneWidth: 2.5
+  startY: 4
+  camper: {fileID: 1590792568}
+  art:
+    pixel: {fileID: 21300000, guid: cc26066e0649eeb46973d6e4987f6728, type: 3}
+    camperDamage:
+    - {fileID: 21300000, guid: a13d865dd102aa14fbd7ff344ad11e7c, type: 3}
+    - {fileID: 21300000, guid: 3c96a6a3ea0733f45b88f108a95eaaea, type: 3}
+    - {fileID: 21300000, guid: cc49da9ed78dfc74f933aba540fe3905, type: 3}
+    traffic:
+    - {fileID: 21300000, guid: 9b2689639639eaa48bcf36e31b559ab3, type: 3}
+    - {fileID: 21300000, guid: 7ab90612478dad04e92574e19454ae6f, type: 3}
+    - {fileID: 21300000, guid: e0bf5e4a8b889f2429e2314718e65fc4, type: 3}
+    - {fileID: 21300000, guid: cb4b6ce10232ac74aa8fad803344f644, type: 3}
+    sportsCar: {fileID: 21300000, guid: 9e4e943af73cc0a4e9333528f9ed0a5b, type: 3}
+    reviewer2: {fileID: 21300000, guid: ca420ccae9703d64a94a312aff6cc621, type: 3}
+    vespa: {fileID: 21300000, guid: 636fed870ca6c124d85011a2f304cb7d, type: 3}
+    cow: {fileID: 21300000, guid: 1eb02e684994b5040a65e8b3622fa174, type: 3}
+    smallCar: {fileID: 21300000, guid: b48e8c6b4bbcb2249ba9f50122cbe5df, type: 3}
+    rock: {fileID: 21300000, guid: 028b7c18a13b0ce4f9fa5f8aa69a926b, type: 3}
+    pothole: {fileID: 21300000, guid: 792f2c353dc206149b08612c5a88e6c9, type: 3}
+    barrier: {fileID: 21300000, guid: 89888ed4ea50b2842a8ab50728df0eaa, type: 3}
+    jerry: {fileID: 21300000, guid: ba4d3c7d55d0f984188fcacdb6d8e786, type: 3}
+    paper: {fileID: 21300000, guid: 0551fffe2a436684ab47c10ad31d9f44, type: 3}
+    citation: {fileID: 21300000, guid: 07561abc555e4524daa3dd8c6ca0b578, type: 3}
+    stamp: {fileID: 21300000, guid: a455d39445743c04ba8a2ae1f23c795d, type: 3}
+    mate: {fileID: 21300000, guid: 101ecb369d6e9bf4395fe512be3677ed, type: 3}
+    postcardIcon: {fileID: 21300000, guid: 9b98c9dcaef39fa43ac106c20a804268, type: 3}
+    postcardIcons:
+    - {fileID: 21300000, guid: b9b48d0bf6992ab498df8200e5a10439, type: 3}
+    - {fileID: 21300000, guid: d1e49498d3d31e14da45aeda140c8577, type: 3}
+    - {fileID: 21300000, guid: cbf7032910f23fa4586c4ddd1952e9f9, type: 3}
+    gasStation: {fileID: 21300000, guid: 1a8e7bb9d16310e4d998f07d2b8375d3, type: 3}
+    workshop: {fileID: 21300000, guid: 7a27528b4acafff47bf0821760da403c, type: 3}
+    tollBooth: {fileID: 21300000, guid: 330ead5181b7fe444bd196acbcdfeb8d, type: 3}
+    venue: {fileID: 21300000, guid: 42a2ace7d09b04741ba501455842d4ed, type: 3}
+    shadow: {fileID: 21300000, guid: d73f76f1e80d12b47b26a2522842b8f0, type: 3}
+    warn: {fileID: 21300000, guid: b2c0ae6424511894e83ed397815a1be5, type: 3}
+    venueScale: 1.6
+    venueName: PAULINUM LEIPZIG
+    asphalt:
+    - {fileID: 21300000, guid: e10280c2204ef604797fa1709567a6df, type: 3}
+    - {fileID: 21300000, guid: f7c00bd60c9be59428d82a0ff27c16b4, type: 3}
+    - {fileID: 21300000, guid: c94ae3bb4fc65d140ac5a67798f67654, type: 3}
+    grass:
+    - {fileID: 21300000, guid: 12ebfa5f66aa19441a773d3ee9058cfd, type: 3}
+    - {fileID: 21300000, guid: d332a3182a622834088ccd3e7c3e1e90, type: 3}
+    - {fileID: 21300000, guid: 73e1650c1fc702044bf874b72bdd20ff, type: 3}
+    decorDE:
+    - {fileID: 21300000, guid: 5be280855a12dd743a095fb55ca4a28a, type: 3}
+    - {fileID: 21300000, guid: 5be280855a12dd743a095fb55ca4a28a, type: 3}
+    - {fileID: 21300000, guid: 27e10ac9857f8b641887086ba86173f9, type: 3}
+    - {fileID: 21300000, guid: dfc3e6d5c48444d4895ef9852bba60f7, type: 3}
+    - {fileID: 21300000, guid: dfc3e6d5c48444d4895ef9852bba60f7, type: 3}
+    decorAT:
+    - {fileID: 21300000, guid: 4a9b1f093fb29d740a634615818dce11, type: 3}
+    - {fileID: 21300000, guid: 4a9b1f093fb29d740a634615818dce11, type: 3}
+    - {fileID: 21300000, guid: 4a9b1f093fb29d740a634615818dce11, type: 3}
+    - {fileID: 21300000, guid: d8227b507c3b50e4482207580ae6e6c6, type: 3}
+    - {fileID: 21300000, guid: 1e9fe65cd3bebe54aaf3f9596e5da41c, type: 3}
+    - {fileID: 21300000, guid: 1e9fe65cd3bebe54aaf3f9596e5da41c, type: 3}
+    decorIT:
+    - {fileID: 21300000, guid: 87f640b3f80319d428b4382030b1772b, type: 3}
+    - {fileID: 21300000, guid: 87f640b3f80319d428b4382030b1772b, type: 3}
+    - {fileID: 21300000, guid: 9da7ab2a23631df4cab7085e9f40c01a, type: 3}
+    - {fileID: 21300000, guid: 9da7ab2a23631df4cab7085e9f40c01a, type: 3}
+    - {fileID: 21300000, guid: 380a7b2bf2fb98d478ef98750318447b, type: 3}
+    signBoard: {fileID: 21300000, guid: 7e20e40c0b0d61241ad980953de80554, type: 3}
+    gantry: {fileID: 21300000, guid: 6e6eb0c0710d6854db9ee9105911d9b1, type: 3}
+    finishLine: {fileID: 21300000, guid: 2b68455100a2e4c4db9ea52c05e0559e, type: 3}
+    laneDash: {fileID: 0}
+  font: {fileID: 12800000, guid: 81e9eeb7a44c7f84d9d5f69101f4a00b, type: 3}
+  cam: {fileID: 1867584315}
+  cameraLead: 6
+  spawnAhead: 34
+  despawnBehind: 16
+  jerryFuel: 15
+  gasPenalty: 6
+  workshopPenalty: 16
+  tollSpeed: 6.5
+  mateBoost: 6
+  hitPaperLoss: 2
+  rejectPaperLoss: 4
+  curveSlideSpeed: 12.5
+  nextScene: StartScreen
+  levelTitle: 'Level 3: The Camper Road Trip'
+--- !u!114 &217416437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217416435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 199f375115502e748a54b5997d9f2add, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GetYourPhD.HowToPlayOverlay
+  levelId: L3
+  title: 'LEVEL 3: THE CAMPER ROAD TRIP'
+  intro: 'The defense is far away: drive the <b>camper</b> from <b>Italy</b> over
+    the <b>Alps</b> home to the <b>Paulinum in Leipzig</b> before <b>13:59 AOE</b>.
+    Watch the <b>fuel</b> and the <b>dents</b>: an empty tank sends you back to the
+    last border, and a <b>third crash</b> ends the trip: the paper is <b>submitted
+    as is</b>. Gas stations and workshops on the right help, but cost time.'
+  rowsCaption: ON THE ROAD
+  rows:
+  - icon: {fileID: 21300000, guid: ba4d3c7d55d0f984188fcacdb6d8e786, type: 3}
+    name: Jerry can
+    text: +15 fuel. Speeding burns fuel much faster
+  - icon: {fileID: 21300000, guid: 1a8e7bb9d16310e4d998f07d2b8375d3, type: 3}
+    name: Gas / Workshop
+    text: 'Steer right into it: full tank (-6 s) or repair (-16 s)'
+  - icon: {fileID: 21300000, guid: 0551fffe2a436684ab47c10ad31d9f44, type: 3}
+    name: Paper, citation
+    text: +3 / +1 paper
+  - icon: {fileID: 21300000, guid: a455d39445743c04ba8a2ae1f23c795d, type: 3}
+    name: Approved stamp
+    text: '"Reviewer 2 approved": +6 paper'
+  - icon: {fileID: 21300000, guid: 101ecb369d6e9bf4395fe512be3677ed, type: 3}
+    name: Mate
+    text: Turbo for a few seconds
+  - icon: {fileID: 21300000, guid: ca420ccae9703d64a94a312aff6cc621, type: 3}
+    name: Reviewer 2
+    text: Chases you. Swerve at the last moment or brake
+  - icon: {fileID: 21300000, guid: 792f2c353dc206149b08612c5a88e6c9, type: 3}
+    name: Desk Reject
+    text: 'Pothole: a dent and -4 paper'
+  - icon: {fileID: 21300000, guid: 9b98c9dcaef39fa43ac106c20a804268, type: 3}
+    name: Postcard
+    text: One hidden in every country. Collect them all!
+  keys:
+  - key: "\u2190 / \u2192  or  A / D"
+    action: Change lanes (and turn into gas stations / workshops)
+  - key: "\u2191 / W"
+    action: Accelerate (the Ducato is slow to speed up)
+  - key: "\u2193 / S"
+    action: Brake (slow down for tolls, cows and curves)
+  - key: nothing
+    action: The camper cruises at a comfy 90 km/h
+  gamepadNote: 'Gamepad: stick or d-pad steer, A / RT accelerate, X / LT brake'
+  font: {fileID: 12800000, guid: 81e9eeb7a44c7f84d9d5f69101f4a00b, type: 3}
+--- !u!114 &217416438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217416435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec4fb639138bf7429c7612ef21fdbce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GetYourPhD.PaperMeter
+  maxPoints: 67
+  fullAt: 0.9
+--- !u!114 &217416439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217416435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16baac13ccba2f248b2763963fc70f57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GetYourPhD.DeadlineClock
+  levelDurationSeconds: 315
+  deadlineHour: 13
+  deadlineMinute: 59
+  timeZoneLabel: AOE
+  inGameMinutesSpan: 600
+  slowdownStartsAt: 60
+  slowdownFullAt: 30
+  minSpeedFactor: 1
+--- !u!4 &217416440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217416435}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &316712967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 316712969}
+  - component: {fileID: 316712968}
+  m_Layer: 0
+  m_Name: Scenery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &316712968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316712967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c985ee1b7616b674fb12e379543c6489, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GetYourPhD.RoadScenery
+  trip: {fileID: 217416436}
+  cam: {fileID: 1867584315}
+  rows: 24
+  decorSpacing: 2.5
+--- !u!4 &316712969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316712967}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1222498701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1222498703}
+  - component: {fileID: 1222498702}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1222498702
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222498701}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 12
+  m_Sprite: {fileID: 21300000, guid: a13d865dd102aa14fbd7ff344ad11e7c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5625, y: 2.75}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1222498703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222498701}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1590792569}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1239857722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1239857724}
+  - component: {fileID: 1239857723}
+  m_Layer: 0
+  m_Name: Global Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1239857723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239857722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+  m_ComponentVersion: 2
+  m_LightType: 4
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+--- !u!4 &1239857724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239857722}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1515263230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1515263233}
+  - component: {fileID: 1515263232}
+  - component: {fileID: 1515263231}
+  m_Layer: 0
+  m_Name: HUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1515263231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515263230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ebf237e38aa00f49bee6ecc9ac9e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GetYourPhD.RoadHUD
+  font: {fileID: 12800000, guid: 81e9eeb7a44c7f84d9d5f69101f4a00b, type: 3}
+  camperIcon: {fileID: 21300000, guid: a13d865dd102aa14fbd7ff344ad11e7c, type: 3}
+  jerryIcon: {fileID: 21300000, guid: ba4d3c7d55d0f984188fcacdb6d8e786, type: 3}
+  postcardBlank: {fileID: 21300000, guid: fa044b30ae2712340bfd3aea9d6a7d60, type: 3}
+--- !u!114 &1515263232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515263230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed73f66698cc5514eb0a4dc9698638ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GetYourPhD.HUD
+  font: {fileID: 12800000, guid: 81e9eeb7a44c7f84d9d5f69101f4a00b, type: 3}
+  mateIcon: {fileID: 0}
+  paperIcon: {fileID: 0}
+--- !u!4 &1515263233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515263230}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1590792567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1590792569}
+  - component: {fileID: 1590792568}
+  m_Layer: 0
+  m_Name: Camper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1590792568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590792567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac29de0d334a7c43b30f925a1ac7cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GetYourPhD.CamperController
+  body: {fileID: 1222498702}
+  damageSprites:
+  - {fileID: 21300000, guid: a13d865dd102aa14fbd7ff344ad11e7c, type: 3}
+  - {fileID: 21300000, guid: 3c96a6a3ea0733f45b88f108a95eaaea, type: 3}
+  - {fileID: 21300000, guid: cc49da9ed78dfc74f933aba540fe3905, type: 3}
+  smoke: {fileID: 0}
+  maxSpeed: 15.5
+  cruiseSpeed: 10
+  minSpeed: 3
+  accel: 2.4
+  brake: 9
+  coast: 1
+  speedingAt: 12.5
+  kmhPerUnit: 9
+  laneSmoothTime: 0.26
+  repeatDelay: 0.3
+  fuelMax: 100
+  fuelBase: 0.7
+  fuelPerSpeed: 0.06
+  speedingMultiplier: 1.8
+  maxHp: 3
+  invulnerableTime: 1.6
+  SteeringLocked: 0
+--- !u!4 &1590792569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590792567}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1222498703}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1867584314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1867584317}
+  - component: {fileID: 1867584315}
+  - component: {fileID: 1867584316}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &1867584315
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867584314}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.33, g: 0.55, b: 0.28, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 8.4375
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &1867584316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867584314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
+--- !u!4 &1867584317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867584314}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1867584317}
+  - {fileID: 1239857724}
+  - {fileID: 1590792569}
+  - {fileID: 217416440}
+  - {fileID: 316712969}
+  - {fileID: 1515263233}

@@ -1,0 +1,66 @@
+{
+  "group_id": "f812c8c0-6709-4573-a0fc-4e52e69d76e0",
+  "states": [
+    {
+      "character": {
+        "id": "a6e6ea1a-eaa0-4eb4-9a2b-5a89cce6ef31",
+        "name": "Idle",
+        "prompt": "slim friendly German professor around 40, short messy dark-brown hair sticking up on top and receding at the temples, high forehead, narrow face, blue-grey eyes, big friendly toothy grin, bright turquoise-blue button-up dress shirt tucked in, dark trousers, dark shoes, holding a red pen in one hand",
+        "size": {
+          "width": 48,
+          "height": 48
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "side",
+        "created_at": "2026-11-08T13:10:10.294646+00:00"
+      },
+      "folder": "Idle",
+      "frames": {
+        "rotations": {
+          "south": "Idle/rotations/south.png",
+          "south-east": "Idle/rotations/south-east.png",
+          "east": "Idle/rotations/east.png",
+          "north-east": "Idle/rotations/north-east.png",
+          "north": "Idle/rotations/north.png",
+          "north-west": "Idle/rotations/north-west.png",
+          "west": "Idle/rotations/west.png",
+          "south-west": "Idle/rotations/south-west.png"
+        },
+        "animations": {
+          "idle": {
+            "south": [
+              "Idle/animations/idle/south/frame_000.png",
+              "Idle/animations/idle/south/frame_001.png",
+              "Idle/animations/idle/south/frame_002.png",
+              "Idle/animations/idle/south/frame_003.png"
+            ]
+          },
+          "attack": {
+            "south": [
+              "Idle/animations/attack/south/frame_000.png",
+              "Idle/animations/attack/south/frame_001.png",
+              "Idle/animations/attack/south/frame_002.png",
+              "Idle/animations/attack/south/frame_003.png",
+              "Idle/animations/attack/south/frame_004.png",
+              "Idle/animations/attack/south/frame_005.png",
+              "Idle/animations/attack/south/frame_006.png"
+            ]
+          },
+          "hit": {
+            "south": [
+              "Idle/animations/hit/south/frame_000.png",
+              "Idle/animations/hit/south/frame_001.png",
+              "Idle/animations/hit/south/frame_002.png",
+              "Idle/animations/hit/south/frame_003.png",
+              "Idle/animations/hit/south/frame_004.png",
+              "Idle/animations/hit/south/frame_005.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.1",
+  "export_date": "2026-11-08T13:14:59.082367"
+}

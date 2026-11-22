@@ -1,0 +1,89 @@
+# ============================================================
+#  Unity .gitignore für GetYourPhD (Unity 6, URP 2D)
+# ============================================================
+
+# --- Von Unity generierte Ordner (werden automatisch neu erzeugt) ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# --- Build-Ausgaben ---
+/[Bb]uild/
+/[Bb]uilds/
+/[Bb]uild[Ss]ettings/
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# Burst-Debug-Infos aus Builds
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# --- Projekt-spezifisch ---
+# Screenshots/Testaufnahmen außerhalb von Assets (Zeile entfernen, falls gewünscht)
+/Captures/
+# Alte lokale Sicherungskopie
+/_backup_before_polish/
+
+# --- IDE / Editor (werden von Unity bzw. der IDE neu erzeugt) ---
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Gradle / Android
+.gradle/
+ExportedObj/
+.consulo/
+sysinfo.txt
+mono_crash.*
+
+# Autogenerierte Asset-Store-Tools
+/[Aa]ssets/AssetStoreTools*
+
+# Addressables Build-Cache
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Lokale Konfiguration mit möglichen Zugangsdaten (MCP-Server, API-Keys)
+.env
+.env.*
+*.pem
+*.key
+.mcp.json
+mcp.json
+**/mcp_config*.json
+.claude/settings.local.json
+
+# --- Python-Hilfsskripte (LevelTools) ---
+__pycache__/
+*.pyc
+
+# --- Betriebssystem ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini

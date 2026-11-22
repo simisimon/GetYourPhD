@@ -1,0 +1,36 @@
+{
+  "group_id": "89c9d36d-cbf4-413e-b4a9-be4292b87f71",
+  "states": [
+    {
+      "character": {
+        "id": "5dd23cb2-0d45-4bd0-bb18-5c20c80dd1b8",
+        "name": "Idle",
+        "prompt": "young person, messy shoulder-length brown hair, round glasses, smile, blue-grey striped sweater over a dark hoodie, dark trousers, dark shoes",
+        "size": {
+          "width": 48,
+          "height": 48
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "side",
+        "created_at": "2026-11-08T14:13:40.804535+00:00"
+      },
+      "folder": "Idle",
+      "frames": {
+        "rotations": {
+          "south": "Idle/rotations/south.png",
+          "south-east": "Idle/rotations/south-east.png",
+          "east": "Idle/rotations/east.png",
+          "north-east": "Idle/rotations/north-east.png",
+          "north": "Idle/rotations/north.png",
+          "north-west": "Idle/rotations/north-west.png",
+          "west": "Idle/rotations/west.png",
+          "south-west": "Idle/rotations/south-west.png"
+        },
+        "animations": {}
+      }
+    }
+  ],
+  "export_version": "3.1",
+  "export_date": "2026-11-08T14:16:15.989176"
+}

@@ -1,0 +1,36 @@
+{
+  "group_id": "2b73547b-0b62-4ec0-a4b7-3e3fdde97936",
+  "states": [
+    {
+      "character": {
+        "id": "f29a8a2a-30f3-40ed-8c85-bef141beb7a7",
+        "name": "Idle",
+        "prompt": "young woman, curly orange-red chin-length hair, big smile, dark green t-shirt over a black turtleneck, light blue jeans, dark shoes",
+        "size": {
+          "width": 48,
+          "height": 48
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "side",
+        "created_at": "2026-11-08T14:13:40.589246+00:00"
+      },
+      "folder": "Idle",
+      "frames": {
+        "rotations": {
+          "south": "Idle/rotations/south.png",
+          "south-east": "Idle/rotations/south-east.png",
+          "east": "Idle/rotations/east.png",
+          "north-east": "Idle/rotations/north-east.png",
+          "north": "Idle/rotations/north.png",
+          "north-west": "Idle/rotations/north-west.png",
+          "west": "Idle/rotations/west.png",
+          "south-west": "Idle/rotations/south-west.png"
+        },
+        "animations": {}
+      }
+    }
+  ],
+  "export_version": "3.1",
+  "export_date": "2026-11-08T14:16:14.954107"
+}
